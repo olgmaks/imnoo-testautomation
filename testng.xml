@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Administration">
+
+    <test name = "Setup Customer" parallel="classes">
+         <packages>
+             <package name="de.imnoo.launchers"/>
+         </packages>
+    </test>
+
+</suite>
